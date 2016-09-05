@@ -10,9 +10,9 @@ import Foundation
 
 class CalculatorModel {
     
-    typealias PropertyList = AnyObject
-    
     fileprivate var accumulator = 0.0
+    
+    typealias PropertyList = AnyObject
     
     fileprivate var internalProgram = [AnyObject]()
     
